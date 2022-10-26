@@ -13,5 +13,23 @@
     --color-grey-4:  #373B3E;
     --color-grey-6:  #A6A8A9;
     --color-grey-7:  #FFFFFF;
+    --color-grey-8:  rgba(255, 255, 255, 0.6);
+    --color-grey-9:  #ffffff0e;
     --color-alert:   #C22554;
+    --border-radius: 0px 10px 10px 0px; 
+    --border-radius-left: 10px 0px 0px 10px;
+}
+
+.container{
+  display: flex;
+  max-width: 75rem;
+  margin: 4px auto;
+}
+
+.fonts{
+  color: var( --color-grey-7);
+}
+
+ul {
+  list-style: none;
 }

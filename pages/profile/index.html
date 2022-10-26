@@ -9,7 +9,29 @@
     <title>Nome do usuário Github</title>
   </head>
   <body>
-    <main></main>
-    <script src="index.js"></script>
+      <main class="container">
+        <section class="profile">
+          <h1 class="fonts title-h1">Git Search</h1>
+          <p class="fonts search-description">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+          <div class="box-find">
+            <span class="fonts search-text">Achados Recentemente:</span>
+            <div class="profile-box">
+              <ul id="saved_users" >
+                <li>
+                  <img src="" alt=""></li>
+              </ul>
+           </div>
+          </div>
+        </section>
+        <aside class="search-profile">
+          <h2 class="fonts title-h2">Procurar por um usuário</h2>
+          <form class="form" id="id_form" value="form">
+            <label class="fonts" for="Usuário github">Usuário github</label>
+            <input type="e-mail" name="" id="input_login" placeholder="Digite um usuário do github aqui..." required="true">
+            <button type="submit" class="btn-form">Ver perfil do github</button>
+          </form>
+        </aside>
+    </main>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

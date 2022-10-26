@@ -1,1 +1,89 @@
 /* Desenvolva sua estilização aqui...*/
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    background-color: var( --color-brand-1);
+    height: 878px;
+    width: 704px;
+    padding: 300px 0px 0px 100px;
+    border-radius: var(--border-radius-left);
+
+}
+
+
+.title-h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.search-description{
+    font-size:larger;
+    padding-right: 189px;
+}
+
+.box-find{
+    padding-top: 67px;
+    display: flex;
+}
+
+.profile-box{
+    margin: -11px 10px;
+    display: flex;
+    gap: 12px;
+}
+
+            /* BUSCA DO PERFIL */
+
+
+.search-profile{
+    background-color: var(--color-grey-2);
+    height: 878px;
+    width: 704px;
+    padding: 300px 0px 0px 100px;
+    border-radius: var(--border-radius);
+}
+
+.title-h2{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+form{
+
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+}
+
+input{
+    height: 38px;
+    width: 316px;
+    border-radius: 4px;
+    background-color: var( --color-grey-1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+    padding: 0px 10px;
+}
+
+
+
+.btn-form{
+    background: rgba(214, 51, 108, 0.4);
+    height: 38px;
+    width: 316px;
+    border-radius: 4px;
+    border: none;
+    color: rgba(255, 255, 255, 0.35);
+    font-family: 'Inter';
+
+}
+
